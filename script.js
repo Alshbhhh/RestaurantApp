@@ -119,7 +119,7 @@ document.getElementById('checkout').addEventListener('click', () => {
       message += `\nالموقع: ${location}`;
       
       // إنشاء رابط WhatsApp
-      const phoneNumber = "201204486263";
+      const phoneNumber = "201113670782";
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
     }, error => {
